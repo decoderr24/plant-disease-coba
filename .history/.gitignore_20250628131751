@@ -3,6 +3,6 @@ app/trained_model/plant_disease_prediction_model.h5
 app/trained_model/knn_sugarcane_model.pkl
 app/trained_model/knn_sugarcane_model_fixed.pkl
 app/trained_model/scaler_sugarcane.pkl
-app/model_training_notebook/plant_disease_model.h5
-app/model_training_notebook/knn_sugarcane_model.pkl
+app/model_training/plant_disease_model.h5
+app/model_training_/knn_sugarcane_model.pkl
 app/model_training_notebook/Salinan_dari_KNN_Multiclass.ipynb

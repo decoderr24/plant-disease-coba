@@ -5,7 +5,6 @@ import numpy as np
 from PIL import Image
 import cv2
 from skimage.feature import graycomatrix, graycoprops
-from skimage.color import rgb2gray
 
 # Path model
 working_dir = os.path.dirname(os.path.abspath(__file__))
@@ -58,4 +57,3 @@ if uploaded_file:
         prediction = model.predict(features)[0]
         class_name = class_labels[prediction]
         st.success(f"Prediction: {class_name}")
-        

@@ -58,4 +58,3 @@ if uploaded_file:
         prediction = model.predict(features)[0]
         class_name = class_labels[prediction]
         st.success(f"Prediction: {class_name}")
-        

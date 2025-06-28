@@ -59,3 +59,4 @@ if uploaded_file:
         class_name = class_labels[prediction]
         st.success(f"Prediction: {class_name}")
         
+

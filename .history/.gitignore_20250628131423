@@ -1,0 +1,5 @@
+# Mengecualikan file model besar
+app/trained_model/plant_disease_prediction_model.h5
+app/trained_model/knn_sugarcane_model.pkl
+app/trained_model/knn_sugarcane_model_fixed.pkl
+app/trained_model/scaler

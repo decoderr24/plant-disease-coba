@@ -1,0 +1,4 @@
+# Mengecualikan file model besar
+app/trained_model/plant_disease_prediction_model.h5
+app/trained_model/plant_disease_prediction_model.pkl
+app/trained_model/plant_disease_prediction_model.joblib
