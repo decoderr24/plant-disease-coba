@@ -66,4 +66,4 @@ docker run -p 80:80 sugarcane-classifier
 ```
 
 ## Dataset
-PlantVillage Dataset: https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset
+Noval Sofyan : https://www.kaggle.com/datasets/novalsofyan/dtm1kv1/data
