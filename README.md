@@ -36,6 +36,7 @@ Letakkan file `knn_sugarcane_model.pkl` di folder `trained_model/`
 
 ### 5. Run Aplikasi
 ```bash
+cd app
 streamlit run main.py
 ```
 ### 6. Struktur folder 
