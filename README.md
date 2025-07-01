@@ -1,4 +1,5 @@
 # Sugarcane Disease Classifier
+![localhost_8502_ (1)](https://github.com/user-attachments/assets/a055aa8f-d1e2-4a32-b252-71c5395102b6)
 
 Aplikasi web untuk klasifikasi penyakit tebu menggunakan KNN dengan ekstraksi fitur GLCM dan RGB.
 
