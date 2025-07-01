@@ -3,9 +3,9 @@ app/trained_model/plant_disease_prediction_model.h5
 app/trained_model/knn_sugarcane_model.pkl
 app/trained_model/knn_sugarcane_model_fixed.pkl
 app/trained_model/scaler_sugarcane.pkl
-model_training_notebook/Plant_Disease_Model.h5
-model_training_notebook/knn_sugarcane_model.pkl
-model_training_notebook/Salinan_dari_KNN_Multiclass.ipynb
+app/model_training_notebook/Plant_Disease_Model.h5
+app/model_training_notebook/knn_sugarcane_model.pkl
+app/model_training_notebook/Salinan_dari_KNN_Multiclass.ipynb
 trained_model/
 model_training_notebook/
 .venv
