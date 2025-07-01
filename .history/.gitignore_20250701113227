@@ -7,4 +7,3 @@ app/model_training_notebook/Plant_Disease_Model.h5
 app/model_training_notebook/knn_sugarcane_model.pkl
 app/model_training_notebook/Salinan_dari_KNN_Multiclass.ipynb
 trained_model/
-model_training_notebook
