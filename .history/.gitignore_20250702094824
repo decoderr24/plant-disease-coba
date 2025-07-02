@@ -6,4 +6,4 @@ model_training_notebook/Plant_Disease_Model.h5
 model_training_notebook/knn_sugarcane_model.pkl
 model_training_notebook/Salinan_dari_KNN_Multiclass.ipynb
 app/exciting_varahai.tar
-.venv
+.venvgit
