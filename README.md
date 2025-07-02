@@ -25,7 +25,7 @@ source .venv/bin/activate
 ### 3. Install Dependencies
 ```bash
 a. cd app
-pip install -r requirements.txt
+pip install -r requirements.txt (Wajib)
 b. pip install scikit-image opencv-python joblib pillow (jika dibutuhkan)
 pip install streamlit numpy pillow opencv-python scikit-image joblib (jika dibutuhkan)
 ```
