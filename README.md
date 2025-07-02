@@ -26,8 +26,8 @@ source .venv/bin/activate
 ```bash
 a. cd app
 pip install -r requirements.txt
-b. pip install scikit-image opencv-python joblib pillow
-pip install streamlit numpy pillow opencv-python scikit-image joblib
+b. pip install scikit-image opencv-python joblib pillow (jika dibutuhkan)
+pip install streamlit numpy pillow opencv-python scikit-image joblib (jika dibutuhkan)
 ```
 
 ### 4. Download Model
