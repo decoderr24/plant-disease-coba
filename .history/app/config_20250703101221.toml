@@ -56,6 +56,6 @@ gatherUsageStats = true
 # Default: whatever value is set in server.port.
 serverPort = 80
 
-[runtime]
-pythonVersion = "3.10.0"
+
+pythonVersion = "3.10"
 

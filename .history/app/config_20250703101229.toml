@@ -57,5 +57,5 @@ gatherUsageStats = true
 serverPort = 80
 
 [runtime]
-pythonVersion = "3.10.0"
+pythonVersion = "3.10."
 
