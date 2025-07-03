@@ -56,5 +56,20 @@ gatherUsageStats = true
 # Default: whatever value is set in server.port.
 serverPort = 80
 
+
+[server]
+headless = true
+enableCORS = false
+port = 80
+runOnSave = false
+
+[browser]
+serverAddress = "0.0.0.0"
+serverPort = 80
+gatherUsageStats = true
+
+[logger]
+level = "debug"
+
 [runtime]
-pythonVersion = "3.10.0"
+pythonVersion = "3.10"

@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/decoderr24/plant-disease-coba.git .
+RUN git clone https://github.com/streamlit/streamlit-example.git .
 
 
 # This runs pip install for all the packages listed in your requirements.txt file.
@@ -26,8 +26,6 @@ EXPOSE 8501
 # This command creates a .streamlit directory in the home directory of the container.
 RUN mkdir ~/.streamlit
 
-HEALTHCHECK CMD curl --fail http://localhost:8501/_stcore/health
-
 # This copies your Streamlit configuration file into the .streamlit directory you just created.
 RUN cp config.toml ~/.streamlit/config.toml
 
@@ -35,7 +33,7 @@ RUN cp config.toml ~/.streamlit/config.toml
 RUN cp credentials.toml ~/.streamlit/credentials.toml
 
 # This sets the default command for the container to run the app with Streamlit.
-ENTRYPOINT ["streamlit", "run", "streamlit_app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+ENTRYPOINT ["streamlit", "run"]
 
 # This command tells Streamlit to run your app.py script when the container starts.
 CMD ["main.py"]

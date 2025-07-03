@@ -58,3 +58,4 @@ serverPort = 80
 
 [runtime]
 pythonVersion = "3.10.0"
+

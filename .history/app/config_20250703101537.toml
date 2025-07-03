@@ -58,3 +58,20 @@ serverPort = 80
 
 [runtime]
 pythonVersion = "3.10.0"
+
+[server]
+headless = true
+enableCORS = false
+port = 80
+runOnSave = false
+
+[browser]
+serverAddress = "0.0.0.0"
+serverPort = 80
+gatherUsageStats = true
+
+[logger]
+level = "debug"
+
+[runtime]
+pythonVersion = "3.10"
