@@ -4,5 +4,5 @@ tensorflow
 joblib
 scikit-learn
 Pillow
-opencv-python
-scikit-image
+opencv-python==4.9.0.80
+scikit-image==0.22.0

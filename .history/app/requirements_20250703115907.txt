@@ -1,0 +1,8 @@
+numpy==1.26.3
+streamlit==1.30.0
+tensorflow==2.15.0
+joblib
+scikit-learn==1.3.2
+Pillow==10.2.0
+opencv-python==4.9.0.80
+scikit-image==0.22.0
