@@ -1,7 +1,7 @@
-numpy
+numpy==1.26.3
 streamlit
 tensorflow-cpu
-opencv-python-headless
+opencv-python
 Pillow
 scikit-image
 scikit-learn
